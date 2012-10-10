@@ -7,6 +7,6 @@ namespace MMOR_2.Function
 {
     interface IFunction
     {
-        public double solve(List<double> x);
+        double value(Vector x);
     }
 }

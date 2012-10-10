@@ -8,6 +8,6 @@ namespace MMOR_2.Methods
 {
     interface ISolution
     {
-        public List<double> solve(IFunction f, Interval interval, double precision);
+        Vector solve(IFunction f, double precision);
     }
 }

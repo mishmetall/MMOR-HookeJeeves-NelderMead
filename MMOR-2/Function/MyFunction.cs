@@ -12,7 +12,7 @@ namespace MMOR_2.Function
         /// </summary>
         /// <param name="x">vector of variables</param>
         /// <returns>value of function</returns>
-        public double solve(List<double> x)
+        public double value(Vector x)
         {
             return 3 * x[0] * x[0] * x[0] - x[0] + x[1] * x[1] * x[1] - 3 * x[1] * x[1] - 1;
         }

@@ -9,5 +9,11 @@ namespace MMOR_2.Methods
     {
         public double LeftBound { get; set; }
         public double RightBound { get; set; }
+
+        public Interval(double from, double to)
+        {
+            LeftBound = from;
+            RightBound = to;
+        }
     }
 }
